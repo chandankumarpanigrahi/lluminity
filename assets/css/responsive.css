@@ -1,0 +1,50 @@
+@media screen and (max-width: 1200px) {
+    .hero_title {
+        font-size: 2rem;
+    }
+
+    .hero_text {
+        font-size: 1rem;
+    }
+
+    .hero_counts {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card_details{
+        gap: 1rem;
+    }
+    .card_details.left_card {
+        flex-direction: column-reverse;
+    }
+    .card_details.right_card {
+        flex-direction: column;
+    }
+    .card_details h6,
+    .card_details p{
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer_details_2{
+        margin-top: 0 !important;
+    }
+
+    footer .element_2,
+    footer .element_3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about_us_data p{
+        font-size: 0.9rem;
+        line-height: 1.25rem;
+        padding: 0;
+    }
+}
