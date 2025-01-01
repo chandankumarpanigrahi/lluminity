@@ -20,7 +20,10 @@
 </head>
 
 <body>
-    <!-- <div class="loader" id="loader"></div> -->
+    <div class="loader" id="loader">
+        <div class="loaderImg"></div>
+        <h6>Loading</h6>
+    </div>
     <header class="header">
         <div class="container">
             <div class="row">
@@ -458,8 +461,7 @@
     <!-- Loader JS -->
     <script type="text/javascript">
         $(window).on("load", function () {
-            // $(".loader").delay(1000).fadeOut(200); // By default
-            $(".loader").delay(0).fadeOut(200);
+            $(".loader").delay(0).fadeOut(100);
         });
     </script>
 

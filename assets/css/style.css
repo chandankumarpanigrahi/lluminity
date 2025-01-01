@@ -13,8 +13,16 @@ body {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: #373636ba url(../img/loader.gif) 50% 50% no-repeat;
-    background-size: 70px 70px;
+    background: #373636ba;
+}
+
+.loaderImg {
+    background: url(../img_src/01.png) 50% 50% no-repeat;
+    background-size: 100px 100px;
+    -webkit-animation: flip-vertical-right 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate both;
+    animation: flip-vertical-right 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate both;
+    height: 100%;
+    width: 100%;
 }
 
 a {
