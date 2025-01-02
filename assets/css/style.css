@@ -642,7 +642,8 @@ footer {
 footer .wave1 {
     position: absolute;
     width: 100%;
-    min-width: 1000px;
+    height: 340px;
+    object-fit: cover;
     top: -140px;
     left: 0;
     z-index: 1;
